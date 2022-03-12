@@ -4,6 +4,8 @@ const fox = document.getElementById('fox');
 dog.addEventListener('clcik', getRandomdog())
 fox.addEventListener('clcik', getRandomfox())
 
+/*=========== FETCH RANDOM DOG API ================= */
+
 function getRandomdog() {
     fetch('https://random.dog/woof.json')
         .then((data) => data.json())
@@ -15,6 +17,7 @@ function getRandomdog() {
             }
         })
 }
+/* ========================FETCH RANDOM FOX API ========================= */
 
 function getRandomfox() {
     fetch('https://randomfox.ca/floof/')

@@ -3,19 +3,31 @@ body {
     background-color: #FF4C29 !important;
 }
 
+
+/*================ HEADER TEXT SHADOW ================= */
+
 .shad {
-    text-shadow: 1px 1px 1px wheat;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
+
+
+/*========================HEADER FONT STYLE=================*/
 
 .head {
     font-family: 'Reggae One', cursive;
 }
+
+
+/*==================== BOX ================= */
 
 .img-box {
     height: 350px;
     border-radius: 30px;
     box-shadow: 3px 3px 6px black;
 }
+
+
+/*==================== output image ================= */
 
 .img-box img {
     object-fit: cover;
